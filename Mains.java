@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Main
+class Mains
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{

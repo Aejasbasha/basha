@@ -3,14 +3,14 @@ class Main
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	int n;
+	int x;
         Scanner s = new Scanner(System.in);
-        n = s.nextInt();
-        if(n > 0)
+        x = s.nextInt();
+        if(x > 0)
         {
             System.out.println("Positive");
         }
-        else if(n == 0)
+        else if(x == 0)
         {
             System.out.println("Zero");
         }

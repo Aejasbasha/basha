@@ -10,15 +10,15 @@ class Main
  
       if ( m % 2 == 0 )
       {
-         System.out.println(" Even number.");
+         System.out.println(" Even ");
       }
       else if(m<0)
       {
-         System.out.println(" invalid number.");
+         System.out.println(" invalid ");
       }
         else
         {
-           System.out.println(" Odd number.");
+           System.out.println(" Odd ");
         }
         
    }

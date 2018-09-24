@@ -1,22 +1,22 @@
-/* package whatever; // don't place package name! */
-
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-class Ideone
+import java.util.Scanner;
+class Main
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-        int n;
+	int n;
         Scanner s = new Scanner(System.in);
         n = s.nextInt();
         if(n > 0)
         {
             System.out.println("Positive");
         }
-        else if(n < 0)
+        else if(n == 0)
         {
-            System.out.println("Negative");
+            System.out.println("Zero");
+        }
+        else
+        {
+        	System.out.println("Negative");
         }
 	}
 }
